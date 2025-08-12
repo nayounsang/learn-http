@@ -11,7 +11,7 @@ export type ContentNegotiationHeader = Partial<{
   /**
    * 클라이언트가 이해 가능한 컨텐츠 인코딩이 무엇인지를 알려줍니다
    * 보통은 돌려줄 리소스에 사용되는 압축 알고리즘입니다.
-   * @see https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Accept-Charset
+   * @see https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Accept-Encoding
    */
   "Accept-Encoding": string;
   /**
